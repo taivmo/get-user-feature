@@ -1,0 +1,17 @@
+{
+  "description": {
+    "title": "Welcome to VMO"
+  },
+  "vi": "Tiếng việt",
+  "en": "English",
+  "login": "Login",
+  "register": "Register",
+  "hi": "Hi",
+  "username": "Username",
+  "password": "Password",
+  "back": "Back",
+  "privateMsg": "Private message",
+  "404": "Page not found",
+  "private": "Private",
+  "logout": "Logout"
+}

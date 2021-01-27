@@ -1,0 +1,17 @@
+{
+  "description": {
+    "title": "Chào mừng đến với VMO"
+  },
+  "vi": "Tiếng việt",
+  "en": "English",
+  "login": "Đăng nhập",
+  "register": "Đăng ký",
+  "hi": "Chào",
+  "username": "Tài khoản",
+  "password": "Mật khẩu",
+  "back": "Quay lại",
+  "privateMsg": "Tin nhắn riêng tư",
+  "404": "Không tìm thấy trang",
+  "private": "Riêng tư",
+  "logout": "Đăng xuất"
+}

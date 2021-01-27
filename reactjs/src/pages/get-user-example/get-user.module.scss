@@ -1,0 +1,15 @@
+.get{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__username {
+        text-align: left;
+    }
+    &__user__email {
+        text-align: left;
+    }
+    &__header {
+        margin-bottom: 20px !important;
+    }
+}
+

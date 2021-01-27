@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+// TODO: config webpack to absolute path to import
+
+.button {
+  background: $primary-color;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: $white;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,48 @@
+{
+  "root": true,
+  "extends": ["react-app", "react-app/jest"],
+  "plugins": ["prettier", "react-hooks", "import", "jsx-a11y"],
+  "rules": {
+    "prettier/prettier": ["error",
+    {
+      "endOfLine": "auto"
+    }],
+    "no-multiple-empty-lines": "error",
+    "import/newline-after-import": "error",
+    "import/order": [
+      "error",
+      {
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "src/**/*",
+            "group": "external",
+            "position": "after"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["builtin"],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-no-bind": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-fragments": ["error", "syntax"],
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ]
+  }
+}
